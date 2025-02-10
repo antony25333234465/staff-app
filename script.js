@@ -8,11 +8,11 @@ document.getElementById('applicationForm').addEventListener('submit', function(e
     const experience = document.getElementById('experience').value;
     const promise = document.getElementById('promise').value;
 
-    const webhookURL = 'https://discord.com/api/webhooks/1336779130724941967/E50yyNeHnikMZ4ivPPAc1V88tqFU90Oriw6cnA1-AGUq7crjTxwPJvcHAv_LehD7net3'; // Your Discord webhook URL
+    const webhookURL = 'https://discord.com/api/webhooks/1338505595703132223/8y7803GjzmG-4nK92Sy8knA7DQD_RX3ODi4sYDsSMX91HGG0Q1JUpNL_9aha94D73O3Y'; // Your Discord webhook URL
 
     const data = {
         embeds: [{
-            title: "New Staff Application",
+            title: "Staff Application",
             fields: [
                 { name: "Name", value: name, inline: true },
                 { name: "Age", value: age, inline: true },
