@@ -181,7 +181,7 @@
         <h2>Staff Application Form</h2>
         <form action="#" method="POST">
             <div class="form-group">
-                <label for="full-name">What is your name? (Please add "ARBIX" next to your name)</label>
+                <label for="full-name">What is your name? (Please add "Sndiy" next to your name)</label>
                 <input type="text" id="full-name" name="full-name" required>
             </div>
 
@@ -191,7 +191,7 @@
             </div>
 
             <div class="form-group">
-                <label for="phone">What is your Discord username and ID? (e.g., wv61 and 15882882828828)</label>
+                <label for="phone">What is your Discord username? (e.g., gorilla1vr )</label>
                 <input type="text" id="username" name="username" required>
             </div>
 
@@ -209,9 +209,17 @@
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
             </select>
+            <label for="spam">What u do if someone is spamming in chat</label>
+            <select id="spam" required>
+                <option value="ban">Ban</option>
+                <option value="kick">Kick</option>
+                <option value="mute">Mute</option>
+                <option value="warn">Warn</option>
+                <option value="nothing">Nothing</option>
+            </select>
 
 
-            <input type="submit" value="Submit Application">
+            <input type="submit" value="Submit App">
         </form>
         <div id="responseMessage"></div>
     </div>
